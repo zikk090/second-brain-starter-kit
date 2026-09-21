@@ -67,6 +67,10 @@ Obsidian (optional) shows *the AI's own* graph of interlinked notes — useful i
 
 If your AI assistant has a Notion connection available (several AI tools support this natively, or via an MCP/plugin integration), you can ask it to mirror key summaries there — for example, a running table of active projects, or a status page it updates alongside `START-HERE.md`. The vault stays the source of truth the AI reads and writes; Notion becomes the view built for a human to check in on it without opening the raw files.
 
-## For humans skimming this instead of pasting it into your AI
+## What these tools actually are
 
-Everything above, done for you: point your AI at this repo with the prompt near the top, answer its questions honestly, and you'll get a second brain built around your actual work — not someone else's, and not something you have to maintain by hand. `example-security-research/` is there if you want to see a concrete worked example first — browse it, but don't copy it unless you're also doing security research.
+Quick reference if any of the above is unfamiliar:
+
+- **Git** — a free tool for tracking changes to a folder of files over time and syncing that folder across different computers. It's what almost all software developers use instead of emailing files back and forth.
+- **Obsidian** — a free, local note-taking app that turns a folder of plain text files into linked notes with a visual graph view. Nothing is stored on Obsidian's servers; it just displays files that already live on your computer.
+- **Notion** — a workspace app for notes, databases, and dashboards, hosted online. A lot of people already use it for personal or team organization, which is what makes it a good "human view" layer on top of the AI's own vault.
